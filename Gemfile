@@ -2,12 +2,17 @@
 
 source 'https://rubygems.org'
 
-gem 'coderay', '1.1.1'
-gem 'cucumber'
+gem 'byebug'
+gem 'coderay'
 gem 'cucumber-rails'
+gem 'cucumber'
 gem 'haml'
-gem 'rack-test', '0.7.0'
-gem 'rspec', '3.6.0'
+gem "pry"
+gem "pry-remote"
+gem 'rack-test'
+gem 'rspec'
 gem 'rubocop'
 gem 'selenium-webdriver'
-gem 'sinatra', '2.0.0'
+gem 'sequel'
+gem 'sinatra'
+gem 'sqlite3'
